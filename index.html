@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link" >
+                Features &nbsp;
+            </a>
+            <a href="#pricing" class="nav-link" >
+                Pricing &nbsp;
+            </a>
+            <a href="#support" class="nav-link" >
+                Support &nbsp;
+            </a>
+        </nav>
+        <div id="title-container">
+            <h1 id="title">PIX</h1>
+            <img id="header-img" src="image/logo.png" alt="PIX logo">
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="top-container">
+                <div id="left-container">
+                    <div id="description">
+                        <h3>Free Music Video Online Streaming</h3>
+                        <p>You can download and watch your favorite music videos from anywhere now!</br>
+                        From your home, work or even while you're on the go.</p>
+                    </div>
+                    <div class="video-container">
+                        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RC-ztxH95mc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div id="right-container">
+                    <h4>Try out PIX 7 days for free</h4>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+                    <input id="email" type="email" name="email" placeholder="Your email" required>
+                    </br>
+                    <input id="submit" type="submit" value="Create Account"
+                    style="font-family: 'Poiret One', cursive;">
+                    </form>
+                    <p id="tnc">
+                        By clicking start, you agree to our <a href="" style="color: white">
+                        Term of Service</a> and <a href="" style="color: white">Privacy Policy</a>
+                    </p>
+                    </br>
+                    <p id="notsure">Not sure yet?</p>
+                    <a href="" style="text-decoration: none;">
+                        <p id="learnmore">LEARN MORE</p>
+                    </a>
+                </div>
+            </div>
+            <div id="bottom-container">
+                <label id="features">
+                    <h3>FEATURES</h3>
+                    <p>High quality video</p>
+                    <p>High quality sound</p>
+                    <p>100+ new videos ready for download every week</p>
+                </label>
+                <label id="pricing"> 
+                    <h3>PRICING</h3>
+                </label>
+                <div class="flex-container">
+                    <div class="one-month">
+                        <p style="font-size: 22px">
+                            <b>1 month</b>
+                        </p>
+                        <p id="price">$1</p>
+                        <p>1 Gigabyte</p>
+                    </div>
+                    <div class="three-months">
+                        <p style="font-size: 22px">
+                            <b>3 months</b>
+                        </p>
+                        <p id="price">$3</p>
+                        <p>5 Gigabyte</p>
+                    </div>
+                    <div class="six-months">
+                        <p style="font-size: 22px">
+                            <b>6 months</b>
+                        </p>
+                        <p id="price">$5</p>
+                        <p>10 Gigabyte</p>
+                    </div>
+                    <div class="one-year">
+                        <p style="font-size: 22px">
+                            <b>12 months</b>
+                        </p>
+                        <p id="price">$10</p>
+                        <p>UNLIMITED</p>
+                    </div>
+                </div>
+                <label id="support">
+                    <h3><b>Support</b></h3>
+                    <p>Call Center: 012 - 345 - 678</p>
+                    <p><a id="emailsupport" href="mailto:support@pix.com">Email: support@pix.com</a></p>
+                </label>
+            </br>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="footer">COPYRIGHT - PIX - 2018</p>
+    </footer>
+</body>
+</html>
